@@ -1,0 +1,54 @@
+.jumbotron{
+  text-align: center;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 275px;
+  position: relative;
+  display: inline-block;
+  margin: 1em 2.5em;
+}
+
+.abs {
+  position: absolute;
+}
+
+.header {
+  top: 0;
+  left: 30%;
+  color: #f9f9f9;
+  font-size: 2em;
+}
+
+.link{
+  top: 120px;
+  color: #f9f9f9;
+  font-size: 1.5em;
+  background-color: #5bc0de;
+  border: 1px solid #428bca;
+  border-radius: 3px;
+  padding: 0.1em 0.3em ;
+}
+
+.github {
+  left: 20%;
+}
+
+.live {
+  left: 55%;
+}
+
+.description {
+  color: #f9f9f9;
+  top: 200px;
+  left: 5%;
+  width: 90%;
+  font-size: 1.2em;
+  text-shadow: 0 0 6px black;
+}
